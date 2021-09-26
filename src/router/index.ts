@@ -1,15 +1,17 @@
 import { RouteConfig } from 'vue-router';
+import Page1 from '@/views/Page1.vue';
+import Page2 from '@/views/Page2.vue';
 
 const routes: Array<RouteConfig> = [
     {
-        path: '/',
-        name: 'Home',
-        component: () => import(/* webpackChunkName: "page1" */ '../views/Page1.vue')
+        path: '/page1',
+        name: 'Micro1Page1',
+        component: Page1
     },
     {
-        path: '/about',
-        name: 'About',
-        component: () => import(/* webpackChunkName: "page2" */ '../views/Page2.vue')
+        path: '/page2',
+        name: 'Micro1Page2',
+        component: Page2
     }
 ];
 

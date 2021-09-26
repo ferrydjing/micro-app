@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <h1>This is an micro page2</h1>
+        <h1>This is an micro page1</h1>
     </div>
 </template>
 

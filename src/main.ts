@@ -1,10 +1,12 @@
 import Vue from 'vue';
+import VueCompositionAPI from '@vue/composition-api';
 import App from './App.vue';
 import './registerServiceWorker';
 import routes from './router';
 import VueRouter, { RouteConfig } from 'vue-router';
 
 Vue.config.productionTip = false;
+Vue.use(VueCompositionAPI);
 Vue.use(VueRouter);
 
 interface IProps {
