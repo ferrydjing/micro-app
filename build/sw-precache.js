@@ -1,7 +1,9 @@
 module.exports = {
-    cacheId: `sw-cache-nancy-tool`,
+    cacheId: `sw-cache-micro-app`,
     skipWaiting: true,
+    sourcemap: false,
     maximumFileSizeToCacheInBytes: 10000000,
-    navigateFallback: '/index.html',
+    exclude: ['/micro-app/index.html'],
+    navigateFallback: '/micro-app/index.html',
     navigateFallbackAllowlist: [/^(?!.*\.html$|\/data\/).*/]
 };

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a370ff598c8fcb8c0a20363d13539c61",
+    "revision": "4d3c33bb3cf02a6134585edd8c0e67f6",
     "url": "/micro-app/index.html"
   },
   {
@@ -24,19 +24,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/micro-app/static/fonts/element-icons.732389de.ttf"
   },
   {
-    "revision": "e6c2155d6354ef725c34",
-    "url": "/micro-app/static/js/app.d0d4bf90.js"
+    "revision": "ff8194ffc1cdffefd08e",
+    "url": "/micro-app/static/js/app.ba54b474.js"
   },
   {
     "revision": "4868ab65fecdde52ade8",
     "url": "/micro-app/static/js/chunk-vendors.868a4567.js"
   },
   {
-    "revision": "2b5a58d516a736f4f857",
-    "url": "/micro-app/static/js/page1.18676603.js"
+    "revision": "37903a4bb975a9cd106b",
+    "url": "/micro-app/static/js/page1.0ff8e045.js"
   },
   {
-    "revision": "75e33e24f451c1f279ca",
-    "url": "/micro-app/static/js/page2.f8b36ae3.js"
+    "revision": "3e579fcb66e0b32e2305",
+    "url": "/micro-app/static/js/page2.7ab75b35.js"
   }
 ]);
