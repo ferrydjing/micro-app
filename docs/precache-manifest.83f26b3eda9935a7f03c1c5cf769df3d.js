@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bf5f1f99a7ba91c7dc2d1415ee5d6f36",
+    "revision": "ec31b008f075704edfbcec05464adcc3",
     "url": "/micro-app/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/micro-app/static/fonts/element-icons.732389de.ttf"
   },
   {
-    "revision": "323b182955e1143a7f21",
-    "url": "/micro-app/static/js/app.92300189.js"
+    "revision": "1142d21c14a15eb631ba",
+    "url": "/micro-app/static/js/app.5abb00af.js"
   },
   {
     "revision": "0d3dd2d4fae93162ec8b",

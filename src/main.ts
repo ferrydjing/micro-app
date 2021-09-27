@@ -1,3 +1,4 @@
+import './public-path';
 import Vue from 'vue';
 import VueCompositionAPI from '@vue/composition-api';
 import App from './App.vue';
@@ -13,11 +14,17 @@ interface IProps {
     name: string;
     routerBase: string;
     mainRouter: VueRouter;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     mainStore: any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     singleSpa: any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     container: any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     mountParcel(): any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     setGlobalState(): any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     onGlobalStateChange(): any;
 }
 
@@ -25,6 +32,7 @@ let instance: Vue | null = null;
 
 function render(props: IProps) {
     const { container, routerBase, mainRouter, mainStore } = props;
+    console.log(111, routerBase);
     const router = new VueRouter({
         base: window.__POWERED_BY_QIANKUN__ ? routerBase : process.env.BASE_URL,
         mode: 'history',
